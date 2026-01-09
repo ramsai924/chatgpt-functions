@@ -157,7 +157,7 @@ async function callGeminiWithFunctions() {
   const chat = model.startChat();
 
   // Step 1: Send user message
-  const userMessage = "Hello, What is the weather now in india ?";
+  const userMessage = "Hello, What is the time now";
   console.log(`User: ${userMessage}\n`);
 
   let result = await chat.sendMessage(userMessage);
