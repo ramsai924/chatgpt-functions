@@ -57,7 +57,7 @@ function getTimeOfDay(timezone = 'local', format = '12') {
 //get weather data
 function getWeather(location) {
     fetch(
-      `https://openweathermap.org/weather-assistant?apikey=cf70dab150bb6591007ff70dc89c2f40`,
+      `https://openweathermap.org/weather-assistant?apikey=`,
       {
         method: "POST",
         headers: {
