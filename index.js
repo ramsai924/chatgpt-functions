@@ -2,9 +2,9 @@ const OpenAI = require("openai");
 // import scraper from "./scraper.js";
 
 const openai = new OpenAI({
-  organization: "org-3Z5L7MLmLA0FUlGcz1h60uZu",
+  organization: "=",
   apiKey:
-    "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",
+    "",
 });
 
 // Define your function

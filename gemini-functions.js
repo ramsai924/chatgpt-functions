@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Get your free API key from: https://aistudio.google.com/app/apikey
-const genAI = new GoogleGenerativeAI("AIzaSyDkfajREDQSksrGNcyxl56iuY2-X8LM2z8");
+const genAI = new GoogleGenerativeAI("");
 
 // Define your functions
 function helloWorld(appendString) {
